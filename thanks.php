@@ -1,0 +1,3 @@
+<p>Merci, <?php echo htmlspecialchars($_POST['first_name']);?> <?php echo htmlspecialchars($_POST['last_name']);?> de nous avoir contacté à propos de <?php echo htmlspecialchars($_POST['subject']);?></p>
+<p>Un de nos conseillers vous contactera soit à l’adresse <?php echo htmlspecialchars($_POST['user_email']); ?> ou par téléphone au <?php echo htmlspecialchars($_POST['number']); ?>  dans les plus brefs délais pour traiter votre demande :
+<?php echo htmlspecialchars($_POST['user_message']);?>
